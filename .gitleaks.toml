@@ -1,4 +1,8 @@
-[[allowlist]]
-description = "False positive: generic-api-key in tensorboardX/.travis.yml"
-rules = ["generic-api-key"]
-paths = ["tensorboardX/.travis.yml"]
+[allowlist]
+description = "Merged allowlist"
+rules = [
+  "generic-api-key"
+]
+paths = [
+  "tensorboardX/.travis.yml"
+]
